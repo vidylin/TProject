@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">eBizzcards Translator</string>
+
+    <!--OrderFragment-->
+    <string name="order_no">暂无订单</string>
+    <string name="order_about_time">预计时长：</string>
+    <string name="order_grabbed">本单已被抢</string>
+    <string name="order_expire">本单已过期</string>
+    <!--HistoryOrderFragment-->
+    <string name="history_order_no">暂无历史</string>
+    <string name="history_order_no_score">暂无评分</string>
+    <string name="history_order_translation_fee">翻译费</string>
+    <!--RecentContactsFragment-->
+    <string name="recent_contacts_no_message">暂无消息</string>
+    <string name="recent_contacts_free">我有空</string>
+    <string name="recent_contacts_busy">忙碌中</string>
+    <string name="recent_contacts_leave">暂时离开</string>
+    <string name="recent_contacts_off_duty">下班</string>
+    <!--ChatActivity-->
+    <string name="chat_send_msg">发送</string>
+    <string name="chat_cancel_msg">取消</string>
+    <!--ReportActivity-->
+    <string name="report_actionbar">投诉</string>
+    <string name="report_submit">提交</string>
+
+    <!--loginActivity-->
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="next">下一步</string>
+
+    <!--LoginActivity-->
+    <string name="login_actionbar">账号登陆</string>
+    <string name="login_country_district">国家/地区</string>
+    <string name="login_china">中国</string>
+    <string name="login_hint_phone">请填写手机号码</string>
+    <string name="login_district_num">+86</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_pwd_hint">请填写密码</string>
+    <string name="login_loging">登录</string>
+    <string name="login_register">注册申请</string>
+    <string name="login_forget">忘记密码</string>
+
+    <!--RegisterActivity-->
+    <string name="register_actionbar">注册账号</string>
+    <string name="register_nickname">昵称</string>
+    <string name="register_nickname_demo">例如: Amanda</string>
+    <string name="register_phone_hint">手机号码</string>
+    <string name="register_pwd_hint">6个或以上的字母与数字组合</string>
+    <string name="register_regist">注册</string>
+    <string name="register_take_photo">拍摄</string>
+    <string name="register_from_album">从相册中选择</string>
+    <string name="register_protocol">版权声明和隐私保护条款</string>
+    <string name="register_confirm_phone">确认手机号码</string>
+    <string name="register_sms_code_send_to">短信验证码发送到:</string>
+
+    <!--RegisterPhoneVerActivity-->
+    <string name="ver_actionbar">填写验证码</string>
+    <string name="ver_tips_1">请输入手机</string>
+    <string name="ver_tips_2">收到的短信验证码</string>
+    <string name="ver_code">验证码</string>
+    <string name="ver_resend">重新发送</string>
+    <string name="ver_hint">短信验证码</string>
+    <string name="title_activity_chat">ChatActivity</string>
+</resources>

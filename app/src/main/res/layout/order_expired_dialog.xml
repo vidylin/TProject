@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/order_expired_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="137px"
+            android:layout_marginRight="137px"
+            android:layout_marginTop="68px">
+
+            <ImageView
+                android:id="@+id/from_people_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="68px"
+                android:src="@mipmap/default_head_portrait" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/grab_order_arrow_selected" />
+
+            <ImageView
+                android:id="@+id/to_people_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="68px"
+                android:src="@mipmap/default_head_portrait" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68px"
+            android:layout_marginRight="68px">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/from_people_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24px"
+                        android:textColor="@color/black_body_simple"
+                        android:text="dsaf" />
+                    <TextView
+                        android:id="@+id/from_language_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="32px"
+                        android:textColor="@color/black_body_simple"
+                        android:layout_marginTop="30px"
+                        android:text="dsaf" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/to_people_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textSize="24px"
+                        android:textColor="@color/black_body_simple"
+                        android:text="dsaf" />
+                    <TextView
+                        android:id="@+id/to_language_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30px"
+                        android:textSize="32px"
+                        android:textColor="@color/black_body_simple"
+                        android:text="dsaf" />
+                </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="56px"
+            android:src="@mipmap/grab_order_failed_bg"/>
+        <TextView
+            android:id="@+id/order_state_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30px"
+            android:textSize="36px"
+            android:textColor="@color/black"
+            android:text="@string/order_expire"/>
+        <RelativeLayout
+            android:id="@+id/remarks_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="20px"
+            android:layout_marginTop="40px"
+            android:background="@drawable/remarks">
+            <TextView
+                android:id="@+id/remarks_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_body_simple"
+                android:layout_marginTop="30px"
+                android:layout_marginBottom="20px"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:text="动态文件件服务N，比如聊天图片动态片;l"
+                android:textSize="28px"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="40px"
+            android:layout_height="98px"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/confirm_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:textSize="36px"
+                android:text="@string/confirm"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

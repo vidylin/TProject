@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/blue</item>
+        <item name="android:actionMenuTextColor">@color/blue</item>
+        <item name="android:layout_marginLeft">1dp</item>
+
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <!-- Frame -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Window is floating activity top -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- window is translucent -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!-- window background  transparent-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- dim enabled -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>
